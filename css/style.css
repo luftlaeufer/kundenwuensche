@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Alfa Slap";
+  src: url("/assets/fonts/AlfaSlabOne-Regular.ttf");
+}
+
+:root {
+  --light: #f7f2f1;
+  --blue: #0b1f78;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/*****************/
+/* Section Typography */
+/*****************/
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Alfa Slap";
+  color: var(--blue);
+}
+
+p {
+  color: var(--blue);
+}
+
+/*****************/
+/* Header */
+/*****************/
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/*****************/
+/* Section Hero */
+/*****************/
+
+.hero {
+}
+
+/*****************/
+/* Section service */
+/*****************/
+
+.service {
+}
+
+/*****************/
+/* Section Preise */
+/*****************/
+
+.preise {
+}
+
+/*****************/
+/* Section Standort */
+/*****************/
